@@ -1,0 +1,53 @@
+body {
+    background-color: bisque;
+}
+
+.characterName {
+    color: black;
+
+
+}
+
+.characterButton {
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+#characterHitPoints {
+    color: rgb(41, 207, 41);
+}
+
+#monsterHitPoints {
+    color: rgb(41, 207, 41);
+}
+
+form {
+    width: 300px;
+    height: fixed;
+    margin: 0;
+}
+
+sup {
+    color: red;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    justify-items: center;
+}
+
+input[type="button"] {
+    background-color: rgb(33, 150, 245);
+    color: black;
+}
+
+input[type="button"]:hover {
+    background-color: rgb(69, 119, 160);
+    transition: 250ms;
+    color: white;
+}

@@ -1,0 +1,63 @@
+    <!-- Code made by Brady Smith -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battle Monsters</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <h1>Battle Monsters</h1>
+        <div class="grid">
+                <div class="item1">
+                    <label>Weapon choice:</label>
+                    <img src="images/characterAxe.png" alt="axe" width="100">
+                    <label>15 dmg:</label>
+                    <input class="characterAxe" type="radio" name="weapons">
+                </div>
+                <div class="item2">
+                    <img src="images/characterSword.png" alt="axe" width="100">
+                    <label>10 dmg:</label>
+                    <input class="characterSword" type="radio" name="weapons">
+                </div>
+                <div class="item3">
+                    <img src="images/characterHammer.png" alt="axe" width="200" height="150">
+                    <label>20 dmg:</label>
+                    <input class="characterHammer" type="radio" name="weapons">
+                </div>
+                <br></br>
+
+        </div>
+        <div class="grid">
+            <div class="item1">
+                <label>Monster choice:</label>
+                <img src="images/monsterOrc.png" alt="axe" width="100">
+                <label>15 dmg:</label>
+                <input class="monsterOrc" type="radio" name="monsters">
+            </div>
+            <div class="item2">
+                <img src="images/monsterBoar.png" alt="axe" width="100">
+                <label>10 dmg:</label>
+                <input class="monsterBoar" type="radio" name="monsters">
+            </div>
+            <div class="item3">
+                <img src="images/monsterWarlock.png" alt="axe" width="150" height="150">
+                <label>20 dmg:</label>
+                <input class="monsterWarlock" type="radio" name="monsters">
+            </div>
+            <br></br>
+
+    </div>
+        <div style="text-align: center;">
+            <input class="characterAttack" type="button" value="Attack Monster" style="padding: 1rem; margin: 10px;">
+        </div>
+        <h1>Character HP</h1>
+        <h1 id="characterHitPoints"></h1>
+        <h1>Monster HP</h1>
+        <h1 id="monsterHitPoints"></h1>
+    <script src="script.js"></script>
+</body>
+</html>
